@@ -5,6 +5,7 @@ import { addBand } from '../actions/bands'
 
 class BandsContainer extends Component {
   render() {
+    const {addBand} = this.props;
     return(
       <div>
         <BandInput addBand={addBand} />
